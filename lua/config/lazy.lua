@@ -16,7 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
 require("lazy").setup({
-  performance = { rtp = { paths = { "/usr/lib/nvim" } } },
   spec = {
     -- import your plugins
     { import = "plugins" },
